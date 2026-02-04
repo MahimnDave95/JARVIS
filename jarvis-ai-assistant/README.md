@@ -18,7 +18,7 @@ A personal AI assistant that listens to your voice commands, understands your ne
 - ⚡ **Automates** your daily workflows
 
 ---
-
+-----*/
 ## How It Works
 
 ### 🎤 Voice Input
@@ -58,55 +58,6 @@ All interactions are logged in a local database so JARVIS remembers your past co
 
 ---
 
-## Example Usage
-
-### Voice Commands
-```
-You: "JARVIS, open Chrome"
-JARVIS: Opens Chrome browser
-
-You: "JARVIS, what time is it?"
-JARVIS: "It's 2:47 PM" (speaks out loud)
-
-You: "JARVIS, search Google for Python"
-JARVIS: Searches and opens results
-
-You: "JARVIS, take a screenshot"
-JARVIS: Takes screenshot and saves it
-
-You: "JARVIS, tell me a joke"
-JARVIS: Tells you a funny joke!
-```
-
----
-
-## 🛠️ Technology Stack
-
-**Backend:**
-- Python 3.11+
-- Flask (REST API)
-- SQLite (Database)
-
-**AI/ML:**
-- Google Gemini API
-- Google Speech Recognition
-
-**Voice:**
-- SpeechRecognition library
-- pyttsx3 (Text-to-Speech)
-
-**Automation:**
-- pyautogui
-- subprocess
-- webbrowser
-
-**Mobile:**
-- Android (Kotlin/Java)
-- Retrofit HTTP client
-
----
-
-## 🚀 Quick Start
 
 ### Prerequisites
 - Python 3.11+
@@ -136,47 +87,6 @@ cp .env.example .env
 python jarvis/main.py
 ```
 
----
-
-## 📅 Development Timeline
-
-Building JARVIS over 16 weeks in 8 phases:
-
-| Phase | Weeks | What You Build |
-|-------|-------|---|
-| 1 | 1-2 | Setup & Python Fundamentals |
-| 2 | 3-4 | Voice Engine (Listen & Speak) |
-| 3 | 5-6 | AI Chatbot (Using Gemini) |
-| 4 | 7-8 | App Automation |
-| 5 | 9-10 | System Control |
-| 6 | 11-12 | Database & REST API |
-| 7 | 13-14 | Android Mobile App |
-| 8 | 15-16 | Wake Word Detection & Polish |
-
-**Total Effort:** ~200 hours | **Result:** Full working AI Assistant
-
----
-
-## 📊 Project Structure
-
-```
-jarvis-ai-assistant/
-├── jarvis/
-│   ├── core/              (Voice, AI, Command Routing)
-│   ├── automation/        (App Launching, Browser, System)
-│   ├── api/               (Gemini API, Flask REST API)
-│   ├── database/          (SQLite Database, Models)
-│   ├── config/            (Logging, Settings)
-│   └── main.py            (Entry Point)
-├── jarvis-mobile/         (Android App)
-├── tests/                 (Unit Tests)
-├── docs/                  (Documentation)
-├── requirements.txt       (Dependencies)
-└── README.md              (This File)
-```
-
----
-
 ## 💻 System Requirements
 
 | Component | Minimum | Recommended |
@@ -187,34 +97,6 @@ jarvis-ai-assistant/
 | **OS** | Windows 10+ | Windows 11 |
 | **Python** | 3.11+ | 3.12+ |
 
----
-
-## 🚀 What You'll Learn
-
-By building JARVIS, you'll master:
-
-- ✅ Full-stack Python development
-- ✅ Voice processing & audio
-- ✅ AI integration (Google Gemini)
-- ✅ REST API design
-- ✅ Database design
-- ✅ Mobile app development
-- ✅ Git & version control
-- ✅ System automation
-
-**Perfect for your portfolio!**
-
----
-
-## 📈 Project Progress
-
-```
-Overall Completion: ~25%
-ETA: Late April 2026
-Status: In Development
-```
-
----
 
 <div align="center">
 

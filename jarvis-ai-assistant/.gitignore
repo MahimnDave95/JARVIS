@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+*.egg-info/
+dist/
+build/
+
+# Data files
+data/db/*.db
+data/logs/*.log
+!data/db/.gitkeep
+!data/logs/.gitkeep
+
+# Android
+*.apk
+*.aab
+.gradle/
+local.properties
+.idea/
+*.iml
+build/
+
+# IDE
+.vscode/
+*.swp
+*.swo
